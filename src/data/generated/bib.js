@@ -30,10 +30,10 @@
         "year": "2025"
     },
     "Lee2018_SmartGlassesSurvey": {
-        "abstract": "",
+        "abstract": "Since the launch of Google Glass in 2014, smart glasses have mainly been designed to support micro-interactions. The ultimate goal for them to become an augmented reality interface has not yet been attained due to an encumbrance of controls. Augmented reality involves superimposing interactive computer graphics images onto physical objects in the real world. This survey reviews current research issues in the area of human-computer interaction for smart glasses. The survey first studies the smart glasses available in the market and afterwards investigates the interaction methods proposed in the wide body of literature. The interaction methods can be classified into hand-held, touch, and touchless input. This paper mainly focuses on the touch and touchless input. Touch input can be further divided into on-device and on-body, while touchless input can be classified into hands-free and freehand. Next, we summarize the existing research efforts and trends, in which touch and touchless input are evaluated by a total of eight interaction goals. Finally, we discuss several key design challenges and the possibility of multi-modal input for smart glasses.",
         "author": "LIK-HANG LEE, AND PAN HUI, (Fellow, IEEE)",
         "doi": "10.1109/ACCESS.2018.2831081",
-        "journal": "",
+        "journal": "IEEE Access",
         "keywords": "type: Input methods, smart glasses interaction, touch inputs, touchless input, wearable computing.",
         "number": "",
         "publisher": "IEEE",
