@@ -1,4 +1,7 @@
 ﻿const generatedBibEntries = {
+    "": {
+        "type": "article"
+    },
     "Beck2016Visual": {
         "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
         "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
@@ -13,5 +16,95 @@
         "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
         "volume": "22",
         "year": "2016"
+    },
+    "kojima2022zeroshot": {
+        "abstract": "Pretrained large language models (LLMs) are widely used in many sub-fields of natural language processing (NLP) and generally known as excellent few-shot learners with task-specific exemplars. Notably, chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning through step-by-step answer examples, achieved the state-of-the-art performances in arithmetics and symbolic reasoning, difficult system-2 tasks that do not follow the standard scaling laws for LLMs. While these successes are often attributed to LLMs' ability for few-shot learning, we show that LLMs are decent zero-shot reasoners by simply adding \"Let's think step by step\" before each answer. Experimental results demonstrate that our Zero-shot-CoT, using the same single prompt template, significantly outperforms zero-shot LLM performances on diverse benchmark reasoning tasks including arithmetics (MultiArith, GSM8K, AQUA-RAT, SVAMP), symbolic reasoning (Last Letter, Coin Flip), and other logical reasoning tasks (Date Understanding, Tracking Shuffled Objects), without any hand-crafted few-shot examples, e.g. increasing the accuracy on MultiArith from 17.7% to 78.7% and GSM8K from 10.4% to 40.7% with large-scale InstructGPT model (text-davinci-002), as well as similar magnitudes of improvements with another off-the-shelf large model, 540B parameter PaLM. The versatility of this single prompt across very diverse reasoning tasks hints at untapped and understudied fundamental zero-shot capabilities of LLMs, suggesting high-level, multi-task broad cognitive capabilities may be extracted by simple prompting. We hope our work not only serves as the minimal strongest zero-shot baseline for the challenging reasoning benchmarks, but also highlights the importance of carefully exploring and analyzing the enormous zero-shot knowledge hidden inside LLMs before crafting finetuning datasets or few-shot exemplars.",
+        "author": "Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa",
+        "doi": "10.48550/arXiv.2205.11916",
+        "journal": "NIPS '22: Proceedings of the 36th International Conference on Neural Information Processing Systems",
+        "keywords": "type: large language models, zero-shot learning, chain-of-thought prompting, reasoning, natural language processing, arithmetic reasoning, symbolic reasoning, prompt engineering, in-context learning, multi-task learning",
+        "number": "1613",
+        "publisher": "Curran Associates, Inc.",
+        "series": "",
+        "title": "Large language models are zero-shot reasoners",
+        "type": "article",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8bb0d291acd4acf06ef112099c16f326-Paper-Conference.pdf",
+        "volume": "",
+        "year": "2022"
+    },
+    "li2023trocr": {
+        "abstract": "Text recognition is a long-standing research problem for document digitalization. Existing approaches are usually built based on CNN for image understanding and RNN for char-level text generation. In addition, another language model is usually needed to improve the overall accuracy as a post-processing step. In this paper, we propose an end-to-end text recognition approach with pre-trained image Transformer and text Transformer models, namely TrOCR, which leverages the Transformer architecture for both image understanding and word piece-level text generation. The TrOCR model is simple but effective, and can be pre-trained with large-scale synthetic data and fine-tuned with human-labeled datasets. Experiments show that the TrOCR model outperforms the current state-of-the-art models on the printed, handwritten and scene text recognition tasks. The TrOCR models and code are publicly available.",
+        "author": "Minghao Li, Tengchao Lv, Jingye Chen, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang, Zhoujun Li, Furu WeiAuthors Info & Claims",
+        "doi": "https://doi.org/10.1609/aaai.v37i11.26538",
+        "journal": "The Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI-23)",
+        "keywords": "type: SNLP: Applications, CV: Language and Vision",
+        "number": "11",
+        "publisher": "AAAI Press",
+        "series": "",
+        "title": "TrOCR: transformer-based optical character recognition with pre-trained models",
+        "type": "article",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26538",
+        "volume": "37",
+        "year": "2023"
+    },
+    "liu2024ocrbench": {
+        "abstract": "Large models have recently played a dominant role in natural language processing and multimodal vision-language learning. However, their effectiveness in text-related visual tasks remains relatively unexplored. In this paper, we conducted a comprehensive evaluation of large multimodal models, such as GPT4V and Gemini, in various text-related visual tasks including text recognition, scene text-centric visual question answering (VQA), document-oriented VQA, key information extraction (KIE), and handwritten mathematical expression recognition (HMER). To facilitate the assessment of optical character recognition (OCR) capabilities in large multimodal models, we propose OCRBench, a comprehensive evaluation benchmark. OCRBench contains 29 datasets, making it the most comprehensive OCR evaluation benchmark available. Furthermore, our study reveals both the strengths and weaknesses of these models, particularly in handling multilingual text, handwritten text, non-semantic text, and mathematical expression recognition. Most importantly, the baseline results presented in this study could provide a foundational framework for the conception and assessment of innovative strategies targeted at enhancing zero-shot multimodal techniques. The evaluation pipeline and benchmark are available at https://github.com/Yuliang-Liu/MultimodalOCR.",
+        "author": "Yuliang Liu, Zhang Li, Mingxin Huang, Biao Yang, Wenwen Yu, Chunyuan Li, Xu-Cheng Yin, Cheng-Lin Liu, Lianwen Jin & Xiang Bai",
+        "doi": "https://doi.org/10.1007/s11432-024-4235-6",
+        "journal": "Science China Information Sciences",
+        "keywords": "type: benchmark, ocr, large_models, multimodal_learning, vision_language, vqa, kie, handwritten_text, mathematical_recognition",
+        "number": "220102",
+        "publisher": "Science China Press",
+        "series": "",
+        "title": "OCRBench: on the hidden mystery of OCR in large multimodal models",
+        "type": "article",
+        "url": "https://link.springer.com/article/10.1007/s11432-024-4235-6#Abs1",
+        "volume": "67",
+        "year": "2024"
+    },
+    "masry2022chartqa": {
+        "abstract": "Charts are very popular for analyzing data. When exploring charts, people often ask a variety of complex reasoning questions that involve several logical and arithmetic operations. They also commonly refer to visual features of a chart in their questions. However, most existing datasets do not focus on such complex reasoning questions as their questions are template-based and answers come from a fixed-vocabulary. In this work, we present a large-scale benchmark covering 9.6K human-written questions as well as 23.1K questions generated from human-written chart summaries. To address the unique challenges in our benchmark involving visual and logical reasoning over charts, we present two transformer-based models that combine visual features and the data table of the chart in a unified way to answer questions. While our models achieve the state-of-the-art results on the previous datasets as well as on our benchmark, the evaluation also reveals several challenges in answering complex reasoning questions.",
+        "author": "Ahmed Masry, Do Xuan Long, Jia Qing Tan, Shafiq Joty, Enamul Hoque",
+        "doi": "10.18653/v1/2022.findings-acl.177",
+        "journal": "ACL 2022",
+        "keywords": "type:",
+        "number": "",
+        "publisher": "Association for Computational Linguistics",
+        "series": "",
+        "title": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+        "type": "article",
+        "url": "https://aclanthology.org/2022.findings-acl.177/",
+        "volume": "Findings of the Association for Computational Linguistics: ACL 2022",
+        "year": "2022"
+    },
+    "mathew2021docvqa, ": {
+        "abstract": "We present a new dataset for Visual Question Answering(VQA) on document images called DocVQA. The dataset consists of 50,000 questions defined on 12,000+ document images. Detailed analysis of the dataset in comparison with similar datasets for VQA and reading comprehension is presented. We report several baseline results by adopting existing VQA and reading comprehension models. Although the existing models perform reasonably well on certain types of questions, there is large performance gap compared to human performance (94.36% accuracy). The models need to improve specifically on questions where understanding structure of the document is crucial. The dataset, code and leaderboard are available at docvqa.org",
+        "author": "Minesh Mathew, Dimosthenis Karatzas and C. V. Jawahar",
+        "doi": "10.1109/WACV48630.2021.00225",
+        "journal": "2021 IEEE Winter Conference on Applications of Computer Vision (WACV)",
+        "keywords": "type:dataset, vqa, document_understanding",
+        "number": "",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "DocVQA: A Dataset for VQA on Document Images",
+        "type": "article",
+        "url": "https://www.computer.org/csdl/proceedings-article/wacv/2021/047700c199/1uqGfrEmYVi",
+        "volume": "",
+        "year": "2021"
+    },
+    "urbanski2025lvms": {
+        "abstract": "This article assesses the threat of LVLMs and smart glasses that interface with them towards the integrity of in-person exams proposes and utilizes a new specifically developed benchmark based on standardized exam questions. While performance decreases under image degradation are being demonstrated, it still highlights the high accuracy of publicly available models when answering exam questions, even under less-than-optimal conditions, which showcases the need for researching more robust exams. Additionally, approaches to developing benchmarks whose performance translates better to real-life scenarios are being demonstrated, along with quantifying expected performance detriments when moving from synthetic benchmarks under ideal conditions to similar practical applications.",
+        "author": "Rupert Urbanski, Ralf Peters",
+        "doi": "10.5220/0013206100003932",
+        "journal": "In Proceedings of the 17th International Conference on Computer Supported Education (CSEDU 2025)",
+        "keywords": "type: Large Language Models, Large Vision-Language Models, LLM, LVLM, Exam, Threat, Integrity, Smart Glasses, Computer Vision, CV, Cheating, Smart Devices, Benchmark. ",
+        "number": "",
+        "publisher": "SciTePress - SCIENCE AND TECHNOLOGY PUBLICATIONS",
+        "series": "",
+        "title": "L(V)LMs Compromising the Integrity of in-Person Exams: An Evaluation Utilizing Smart Glasses and Computer Vision",
+        "type": "article",
+        "url": "https://www.scitepress.org/Papers/2025/132061/132061.pdf",
+        "volume": "2",
+        "year": "2025"
     }
 };
