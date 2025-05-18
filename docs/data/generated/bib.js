@@ -1,7 +1,4 @@
 ﻿const generatedBibEntries = {
-    "": {
-        "type": "article"
-    },
     "Beck2016Visual": {
         "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
         "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
@@ -16,6 +13,66 @@
         "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
         "volume": "22",
         "year": "2016"
+    },
+    "Kim2025_VQA_Survey": {
+        "abstract": "Visual question answering (VQA) is a dynamic field of research that aims to generate textual answers from given visual and question information. It is a multimodal field that has garnered significant interest from the computer vision and natural language processing communities. Furthermore, recent advances in these fields have yielded numerous achievements in VQA research. In VQA research, achieving balanced learning that avoids bias toward either visual or question information is crucial. The primary challenge in VQA lies in eliminating noise, while utilizing valuable and accurate information from different modalities. Various research methodologies have been developed to address these issues. In this study, we classify these research methods into three categories: Joint Embedding, Attention Mechanism, and Model-agnostic methods. We analyze the advantages, disadvantages, and limitations of each approach. In addition, we trace the evolution of datasets in VQA research, categorizing them into three types: Real Image, Synthetic Image, and Unbiased datasets. This study also provides an overview of evaluation metrics based on future research directions. Finally, we discuss future research and application directions for VQA research. We anticipate that this survey will offer useful perspectives and essential information to researchers and practitioners seeking to address visual questions effectively.",
+        "author": "Byeong Su Kim, Jieun Kim, Deokwoo Lee, Beakcheol Jang",
+        "doi": "https://doi.org/10.1145/372863",
+        "journal": "ACM Computing Surveys",
+        "keywords": "type: Visual Question Answering, Multimodal Learning, Attention Mechanism, Joint Embedding, VQA Datasets, Evaluation Metrics, Computer Vision, NLP",
+        "number": "",
+        "publisher": "Association for Computing Machinery",
+        "series": "",
+        "title": "Visual Question Answering: A Survey of Methods, Datasets, Evaluation, and Challenges",
+        "type": "article",
+        "url": "https://dl.acm.org/doi/10.1145/3728635",
+        "volume": "57",
+        "year": "2025"
+    },
+    "Lee2018_SmartGlassesSurvey": {
+        "abstract": "Since the launch of Google Glass in 2014, smart glasses have mainly been designed to support micro-interactions. The ultimate goal for them to become an augmented reality interface has not yet been attained due to an encumbrance of controls. Augmented reality involves superimposing interactive computer graphics images onto physical objects in the real world. This survey reviews current research issues in the area of human-computer interaction for smart glasses. The survey first studies the smart glasses available in the market and afterwards investigates the interaction methods proposed in the wide body of literature. The interaction methods can be classified into hand-held, touch, and touchless input. This paper mainly focuses on the touch and touchless input. Touch input can be further divided into on-device and on-body, while touchless input can be classified into hands-free and freehand. Next, we summarize the existing research efforts and trends, in which touch and touchless input are evaluated by a total of eight interaction goals. Finally, we discuss several key design challenges and the possibility of multi-modal input for smart glasses.",
+        "author": "LIK-HANG LEE, AND PAN HUI, (Fellow, IEEE)",
+        "doi": "10.1109/ACCESS.2018.2831081",
+        "journal": "IEEE Access",
+        "keywords": "type: Input methods, smart glasses interaction, touch inputs, touchless input, wearable computing.",
+        "number": "",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "Interaction Methods for Smart Glasses: A Survey",
+        "type": "article",
+        "url": "https://core.ac.uk/download/224633694.pdf",
+        "volume": "6",
+        "year": "2018"
+    },
+    "Long2021_SceneText_DL": {
+        "abstract": "With the rise and development of deep learning, computer vision has been tremendously transformed and reshaped. As an important research area in computer vision, scene text detection and recognition has been inevitably influenced by this wave of revolution, consequentially entering the era of deep learning. In recent years, the community has witnessed substantial advancements in mindset, methodology and performance. This survey is aimed at summarizing and analyzing the major changes and significant progresses of scene text detection and recognition in the deep learning era. Through this article, we devote to: (1) introduce new insights and ideas; (2) highlight recent techniques and benchmarks; (3) look ahead into future trends. Specifically, we will emphasize the dramatic differences brought by deep learning and remaining grand challenges. We expect that this review paper would serve as a reference book for researchers in this field. Related resources are also collected in our Github repository (https://github.com/Jyouhou/SceneTextPapers).",
+        "author": "Shangbang Long, Xin He, Cong Yao",
+        "doi": "https://doi.org/10.1007/s11263-020-01369-",
+        "journal": "International Journal of Computer Vision",
+        "keywords": "type: scene text detection, scene text recognition, deep learning, optical character recognition, text spotting, computer vision, convolutional neural networks, sequence modeling, text extraction, end-to-end text recognition",
+        "number": "",
+        "publisher": "Association for Computing Machinery",
+        "series": "",
+        "title": "Scene Text Detection and Recognition: The Deep Learning Era",
+        "type": "article",
+        "url": "https://dl.acm.org/doi/10.1007/s11263-020-01369-0",
+        "volume": "129",
+        "year": "2021"
+    },
+    "Migicovsky2014_SmartwatchSecurity": {
+        "abstract": "Many companies have recently started to offer wearable computing devices including glasses, bracelets, and watches. While this technology enables exciting new applications, it also poses new security and privacy concerns. In this work, we explore these implications and analyze the impact of one of the first networked wearable devices\u2014smartwatches\u2014 on an academic environment. As a proof of concept, we develop an application for the Pebble smartwatch called ConTest that would allow dishonest students to inconspicuously collaborate on multiple-choice exams in real time, using a cloud-based service, a smartphone, and a client application on a smartwatch. We discuss the broader implications of this technology, suggest hardware and software approaches that can be used to prevent such attacks, and pose questions for future research.",
+        "author": "Alex Migicovsky, Zakir Durumeric, Jeff Ringenberg, and J. Alex Halderman",
+        "doi": "https://doi.org/10.1007/978-3-662-45472-5_7",
+        "journal": "18th International Conference Financial Cryptography and Data Security",
+        "keywords": "type: security, wearable computing, smartwatches, cheating",
+        "number": "",
+        "publisher": "Springer Nature",
+        "series": "",
+        "title": "Outsmarting Proctors with Smartwatches: A Case Study on Wearable Computing Security",
+        "type": "article",
+        "url": "https://jhalderm.com/pub/papers/smartwatch13.pdf",
+        "volume": "",
+        "year": "2014"
     },
     "kojima2022zeroshot": {
         "abstract": "Pretrained large language models (LLMs) are widely used in many sub-fields of natural language processing (NLP) and generally known as excellent few-shot learners with task-specific exemplars. Notably, chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning through step-by-step answer examples, achieved the state-of-the-art performances in arithmetics and symbolic reasoning, difficult system-2 tasks that do not follow the standard scaling laws for LLMs. While these successes are often attributed to LLMs' ability for few-shot learning, we show that LLMs are decent zero-shot reasoners by simply adding \"Let's think step by step\" before each answer. Experimental results demonstrate that our Zero-shot-CoT, using the same single prompt template, significantly outperforms zero-shot LLM performances on diverse benchmark reasoning tasks including arithmetics (MultiArith, GSM8K, AQUA-RAT, SVAMP), symbolic reasoning (Last Letter, Coin Flip), and other logical reasoning tasks (Date Understanding, Tracking Shuffled Objects), without any hand-crafted few-shot examples, e.g. increasing the accuracy on MultiArith from 17.7% to 78.7% and GSM8K from 10.4% to 40.7% with large-scale InstructGPT model (text-davinci-002), as well as similar magnitudes of improvements with another off-the-shelf large model, 540B parameter PaLM. The versatility of this single prompt across very diverse reasoning tasks hints at untapped and understudied fundamental zero-shot capabilities of LLMs, suggesting high-level, multi-task broad cognitive capabilities may be extracted by simple prompting. We hope our work not only serves as the minimal strongest zero-shot baseline for the challenging reasoning benchmarks, but also highlights the importance of carefully exploring and analyzing the enormous zero-shot knowledge hidden inside LLMs before crafting finetuning datasets or few-shot exemplars.",
@@ -67,7 +124,7 @@
         "author": "Ahmed Masry, Do Xuan Long, Jia Qing Tan, Shafiq Joty, Enamul Hoque",
         "doi": "10.18653/v1/2022.findings-acl.177",
         "journal": "ACL 2022",
-        "keywords": "type:",
+        "keywords": "type: chart question answering, visual reasoning, logical reasoning, multimodal learning, data visualization understanding, benchmark dataset, information extraction, machine comprehension, visual question answering, chart understanding",
         "number": "",
         "publisher": "Association for Computational Linguistics",
         "series": "",
@@ -82,7 +139,7 @@
         "author": "Minesh Mathew, Dimosthenis Karatzas and C. V. Jawahar",
         "doi": "10.1109/WACV48630.2021.00225",
         "journal": "2021 IEEE Winter Conference on Applications of Computer Vision (WACV)",
-        "keywords": "type:dataset, vqa, document_understanding",
+        "keywords": "type: dataset, vqa, document_understanding",
         "number": "",
         "publisher": "IEEE",
         "series": "",
